@@ -1,0 +1,14 @@
+name = "cloudflare-crud-app"
+main = "src/index.ts"
+compatibility_date = "2023-01-25"
+
+[[ d1_databases ]]
+binding = "DB" # i.e. available in your Worker on env.DB
+database_name = "demo-db"
+database_id = "18184f1b-a100-4a27-8179-ddb8c306e3dd"
+preview_database_id = "132c8f03-dd62-4eef-b17c-874e78899305"
+
+# [[ d1_databases ]]
+# binding = "DB" # i.e. available in your Worker on env.DB
+# database_name = "demo-dev-db"
+# database_id = "132c8f03-dd62-4eef-b17c-874e78899305"
